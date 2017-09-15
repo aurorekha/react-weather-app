@@ -64,11 +64,11 @@
 
 	var _Weather2 = _interopRequireDefault(_Weather);
 
-	var _About = __webpack_require__(229);
+	var _About = __webpack_require__(230);
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Examples = __webpack_require__(230);
+	var _Examples = __webpack_require__(231);
 
 	var _Examples2 = _interopRequireDefault(_Examples);
 
@@ -25973,7 +25973,7 @@
 
 	var _WeatherForm2 = _interopRequireDefault(_WeatherForm);
 
-	var _WeatherMessage = __webpack_require__(231);
+	var _WeatherMessage = __webpack_require__(229);
 
 	var _WeatherMessage2 = _interopRequireDefault(_WeatherMessage);
 
@@ -26054,6 +26054,40 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	var WeatherMessage = _react2.default.createClass({
+	  displayName: 'WeatherMessage',
+
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(
+	        'h3',
+	        null,
+	        'It is 15 degrees in manchester'
+	      )
+	    );
+	  }
+	});
+
+	exports.default = WeatherMessage;
+
+/***/ }),
+/* 230 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	var About = _react2.default.createClass({
 	  displayName: 'About',
 
@@ -26073,7 +26107,7 @@
 	exports.default = About;
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26101,40 +26135,6 @@
 	});
 
 	exports.default = Examples;
-
-/***/ }),
-/* 231 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var WeatherMessage = _react2.default.createClass({
-	  displayName: 'WeatherMessage',
-
-	  render: function render() {
-	    return _react2.default.createElement(
-	      'div',
-	      null,
-	      _react2.default.createElement(
-	        'h3',
-	        null,
-	        'It is 15 degrees in manchester'
-	      )
-	    );
-	  }
-	});
-
-	exports.default = WeatherMessage;
 
 /***/ })
 /******/ ]);
