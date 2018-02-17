@@ -1,13 +1,9 @@
 import React from 'react';
 
-const About = React.createClass({
-  render: function() {
-    return(
-      <div>
-        <h3>About component</h3>
-      </div>
-    );
-  }
-});
+const About =  (props)  => {
+  return(
+      <h3>About component</h3>
+  );
+}
 
 export default About;
