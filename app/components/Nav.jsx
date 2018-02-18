@@ -5,7 +5,6 @@ import Links from 'Links';
 const Nav = () => {
   return(
     <div>
-      <h2>Nav Component</h2>
       <Links/>
     </div>
   )
