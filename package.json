@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:watch": "concurrently \"yarn start\" \"webpack -w\""
+    "build:watch": "concurrently \"yarn start\" \"webpack -w\"",
+    "start": "node server.js"
   },
   "author": "Rekha",
   "license": "MIT",
