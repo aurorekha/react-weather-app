@@ -4,15 +4,19 @@
   "description": "Simple react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build:watch": "concurrently \"yarn start\" \"webpack -w\"",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint src/**/*.js src/**/*.mjs"
   },
   "author": "Rekha",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
+    "eslint": "^4.19.1",
     "express": "^4.13.4",
+    "jest": "^22.4.3",
+    "node-error-classes": "^2.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^2.0.0",
