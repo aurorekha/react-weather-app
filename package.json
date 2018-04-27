@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:watch": "concurrently \"yarn start\" \"webpack -w\"",
-    "start": "node server.js"
+    "start": "node server.js",
     "test": "jest",
     "lint": "eslint src/**/*.js src/**/*.mjs"
   },
