@@ -4,10 +4,9 @@
   "description": "Simple react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build:watch": "concurrently \"yarn start\" \"webpack -w\"",
     "start": "node server.js",
-    "test": "jest",
     "lint": "eslint src/**/*.js src/**/*.mjs"
   },
   "author": "Rekha",
@@ -15,6 +14,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "express": "^4.13.4",
+    "jest": "^22.4.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^2.0.0",
